@@ -1,0 +1,11 @@
+1.	Să se stabilească detaliile de funcționare, necesarul de intrări-ieșiri, rolul lor și schema logică de funcționare pentru un lift
+Cerințe:
+1.	3 etaje, oprire la fiecare etaj
+2.	Un buton de oprire de urgență în lift
+3.	Ușă la fiecare etaj
+4.	O singură viteză de deplasare, un motor cu comandă de sus și jos
+5.	Câte un buton de comandă pe fiecare etaj
+6.	Bec în interiorul liftului
+7.	Cu excepția opririi de urgență, nu pot fi date comenzi în timp ce liftul se mișcă
+8.	Elemente de siguranță
+9.	Un număr mic de intrări-ieșiri, doar digitale
