@@ -1,0 +1,2 @@
+Prima parte contine logica scarilor rulanrte, cu un senzor de presiune ce le face sa treaca de pe o configuratie stea cu un curent determinat, la o configuratie triunghi cu un curent nominal, pentru a mentine un regim de functionare fara a intrerupe miscarea.
+pentru a schimba sensul de miscare, scara trebuie oprita inainte.
