@@ -1,1 +1,11 @@
+Ultima versiune a acestui proiect, am adaugat functiile separate pentru fiecare componenta in parte, am rezolvat cateva bug-uri la HMI si calculat, pentru simulare, o aproximare a datelor necesare pentru hysteresis
 
+Mentiuni importante:
+
+-> scalarea acestui proiect este una complexa, de aceea am ales sa nu introduc in Main funciile separate, intrucat implementarea lor da peste cap tot sistemul, iar reparatia este mai complexa decat reinceperea de la zero a proiectului
+-> in functiile pentru aparate, lucrurile comune(alarme, avarii, etc) trebuie puse in afara lor
+-> calculele pentru hysteresis sunt valabile doar pentru ideea de simulare, conditia gasita fiind cresterea temperaturii sa fie cel mult jumatate din diferenta dintre valoarea dorita si limita inferioara impusa(acest procentaj de 50% poate sa fie mai mare, insa variaza in functie de valorile temperaturii dorite si de limita superioara si inferioara a sistemului)
+
+Concluzie:
+
+Pentru eficientizarea acestui proiect, cat si cele viitoare, inca de la inceput trebuie plecat pe ideea de scalare, altfel complexitatea de a reveni la acest proces dupa o prima implementare devine exponential mai mare!
