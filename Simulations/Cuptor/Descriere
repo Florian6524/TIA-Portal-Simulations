@@ -2,3 +2,10 @@ O simulare a unui cuptor industrial cu o usa ermetizata, arzator, trapa de evacu
 Echipat de asemenea cu un HMI, urmand sa adaug urmatoarele pe parcurs:
 -> plecare stea-triunghi pentru motorul ventilatorulul
 -> retete predefinite pentru cuptor
+
+Mod de functionare:
+-> inainte de toate, trebuie setate temperatura dorita si timpul de functionare pentur cuptor odata ce atinge acea temperatura
+-> dupa ce criteriile sunt intalnite, se poate apasa butonul de pornire
+-> arzatorul incepe sa incalzeasca iar hysteresisul simuleaza mentinerea temperaturii dorite, pana ce timpul se termina
+-> cand timpul se termina, trapa se deschide si ventilatorul porneste, racind astfel cuptorul
+-> cand atinge temperatura adecvata, usa poate fi deschisa si cuptorul resetat pentru a incepe o noua operatiune
