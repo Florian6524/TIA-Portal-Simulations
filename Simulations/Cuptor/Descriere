@@ -1,1 +1,4 @@
-
+O simulare a unui cuptor industrial cu o usa ermetizata, arzator, trapa de evacuare a caldurii cu ventilator. Fiecare componenta este facuta pe un FB searat, impreuna cu un hysteresis ce simuleaza cresterea si scaderea temperaturii in cuptor
+Echipat de asemenea cu un HMI, urmand sa adaug urmatoarele pe parcurs:
+-> plecare stea-triunghi pentru motorul ventilatorulul
+-> retete predefinite pentru cuptor
