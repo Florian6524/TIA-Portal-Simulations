@@ -1,1 +1,5 @@
+Pentru a doua versiune am terminat implementarea de HMI, urmand sa adaug la aceasta partea pentru motorul de la ventilator
+Am rezolvat problemele ce aparusera la prima versiune cu deschiderea de urgenta blocata de catre simulare
+Am adaugat si un ecran pentru retete, cu 4 retete predefinitesi abilitatea de a crea retete noi(retetele, ca si error logs, trebuie stocate intr-o memorie externa conectata la PLC ul fizic)
 
+Urmeaza in ultima versiune sa adaug partea de plecare stea-triunghi pentru motorul de la ventilator, impreuna cu partea de HMI a acestuia, si sa fac ultimele teste
