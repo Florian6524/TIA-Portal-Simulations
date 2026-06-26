@@ -1,1 +1,8 @@
+Versiunea 3 a cuptorului, am adaugat partea de plecare stea-triunghi a ventilatorului, am schimbat racirea pe simulare, depinzand de plecare
+Am rezolvat un bug legat de afisarea mesajelor pe HMI si alarma 7
+Am adaugat pe HMI la tab-ul 5 o animatie pentru ventilator, cu 4 stari: oprit, avarie, pornire stea, pornire triunghi
 
+Mantiuni:
+-> acum avand retete, pe ecranul de simulare valorile sunt doar ca output (nu poti sa dai overwrite din 2 parti pe v15.1, si principala sursa pentru input este reteta)
+-> valorile la temperatura mediului, la un cold start, o sa fie 0, asta doar pe simulare, daca ar fi implementat in viata reala, s-ar folosi senzori de temperatura ce ne-ar da valoarea ce acum e hardcodata in simulare
+-> animatia la ventilator este facuta intr-un mod mult prea complicat, insa toate clock-urile de pe TIA sunt mult prea rapide pentru ciclul la care citeste HMI-ul datele
