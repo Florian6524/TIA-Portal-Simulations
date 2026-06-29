@@ -1,1 +1,12 @@
+Statie de mixare de substante, cu fiecare parte facuta intr-un FB separat:
+-> mixer cu plecare stea triunghi
+-> container pt mixare
+-> container pentru substante
+-> bloc de simulare
 
+HMI: TBA
+
+Scada: TBA?
+
+Mod de functionare:
+-> userul da comanda de pornire, simularea o sa toarne substanta A, apoi substanta B, urmand dupa sa dea drumul la mixer si dupa sa toarne, treptat, in recipiente
