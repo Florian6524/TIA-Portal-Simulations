@@ -1,1 +1,17 @@
+V2, cu HMI si simulare reparata fata de bug-ul de la versiunea precedenta
 
+Mentiuni:
+-> din cauza ciclurilor de la PLC, simularea nu este una perfecta, uneori se pierde o adaugare la container la solutia B, insa in viata reala aceasta nu reprezinta o problema
+-> in viata reala, senzori de volum ar fi folositi pentru a da drumul la solutie pana cand volumul necesar este intalnit
+-> am incercat totusi sa repar aceasta problema cu o conditie suplimentara de continuare de umplere, avand in vedere ca asta se intampla doar la ultima solutie
+
+HMI:
+-> contine 3 ferestre: simulare, avarii si retete
+-> avariile sunt simulari ale erorilor interne ale mecanismelor
+-> pentru retete, momentan, este folosit tool-ul basic de retete din TIA Portal
+-> simularea contine o reprezentare grafica a statiei, cu cele 3 containere, unul mare si 2 de substante, mixerul si recipientele
+-> in simulare, totul este actualizat in timp real din punct de vedere vizual pentru ca utilizatorul sa inteleaga usor ce se intempla, avand indicatoare de volum, timp si stari ale mecanismelor
+
+Pentru V3:
+-> statie de pc cu SCADA
+-> pentru HMI, sistem propriu de retete
