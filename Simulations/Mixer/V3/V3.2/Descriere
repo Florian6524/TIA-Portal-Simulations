@@ -1,1 +1,8 @@
+V3.2, cu sistem de SCADA operational, cu grafica similara cu cea de la HMI
+
+-> pentru a comuta intre ecrane trebuie folosite tastele F1, F2, F3, ordinea ramanand aceeasi ca la HMI
+-> momentan inca sunt probleme de afisare (multe cuvinte si texte sunt incomplete sau inghesuite)
+
+-> pentru HMI, am reparat niste bug-uri minore de afisare din V3.1
+-> o specificatie uitata este ca pentru solutii, acestea curg constant cu 5L/s, asa ca daca dorim o cantitate ce nu e multiplu de 5, o sa primi de pe fiecare solutie cel mai apropiat multiplu de 5 mai mare ca cerinta, astfel o sa avem solutie in plus, insa acesta este designul intentionat, nu o greseala
 
