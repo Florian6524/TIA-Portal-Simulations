@@ -1,1 +1,6 @@
+Versiunea 3.1, am adaugat o modalitate proprie pentru reteta
 
+Folosind un script simplu de SCL, am creat retetele:
+-> o reteta contine un nume, index, durata, cantitate de substanta A si cantitate de substanta B
+-> 4 butoane, unul de salvare reteta, unul de load in aparate, unul de cautare dupa index si unul de cautare dupa nume
+-> posibilitatea de a adauga pana la 100 de retete si de a le modifica
