@@ -1,0 +1,6 @@
+V2, am adaugat modul automat, problema in simulare este ca acest mod automat are un comportament similar cu un hysteresis industrial (ca la cuptor)
+Urmeaza sa rezolv asta adaugand un PID in V3
+
+Mentiuni:
+-> am actualizat versiunea de limba sa corespunda pe HMI cu toate valorile si variabilele
+-> urmeaza in V2.2 sa inlocuiesc butoanele de moduri cu un drop-down pentru a simplifica is mai mult interfata de pe HMI
