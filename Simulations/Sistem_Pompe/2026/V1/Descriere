@@ -1,1 +1,5 @@
+V1, am pus in prima faza toate componentele, insa am facut pentru aceasta versiune doar modul manual, urmand in V2 sa fac modul automat, iar in V3 modul automat cu ajutorul unui PID
 
+V1 contine doar bazinul, robinetul si pompa, in V2 robinetul o sa fie inlocut de o vana
+
+V1 contine si o verisune simpla de HMI pentur un usor control a sistemului
