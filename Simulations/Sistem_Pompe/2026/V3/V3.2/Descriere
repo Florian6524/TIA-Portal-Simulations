@@ -1,1 +1,5 @@
+V3.2, am adaugat un PID pentru a putea controla totul bine, fara simularea de "hysteresis" utilizata pana acum
 
+Mentiune importanta:
+-> versiunea aceasta nu functioneaza momentan, block-ul de PID din TIA Portal are 2 dintre bitii de eroare blocati, astfel blocand intreg procesul
+-> aceasta eroare urmeaza sa fie abordata (sau in cel mai rau caz block-ul de PID va fi sters si creat de la 0)
