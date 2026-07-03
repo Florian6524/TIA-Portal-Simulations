@@ -1,1 +1,5 @@
+V3.1, am adaugat o pompa auxiliara care sa poata sa fie pornita manual in caz ca avem avarie la pompa principala sau pe modul automat, daca avem avarie, sa i dea automat
+
+Mentiune importanta:
+-> logica de umplere golire este inversata, pompa este cea care umple, iar vana este cea care goleste, logica a fost inversata dintr-o greseala, insa nu necesita schimbarea neaparat
 
