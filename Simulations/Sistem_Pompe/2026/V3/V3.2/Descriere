@@ -3,3 +3,10 @@ V3.2, am adaugat un PID pentru a putea controla totul bine, fara simularea de "h
 Mentiune importanta:
 -> versiunea aceasta nu functioneaza momentan, block-ul de PID din TIA Portal are 2 dintre bitii de eroare blocati, astfel blocand intreg procesul
 -> aceasta eroare urmeaza sa fie abordata (sau in cel mai rau caz block-ul de PID va fi sters si creat de la 0)
+
+V3.2_final:
+
+-> block-ul de PID a fost implementat cu succes, fiind implementate doar valori si logica pentru P (proportional) si I (integral)
+-> Proportional gain = 2.1
+-> Integral action time = 12.5
+-> am rezolvat si un mic bug la pompa auxiliara care nu permitea resetarea activarii acesteia dupa orice avarie
