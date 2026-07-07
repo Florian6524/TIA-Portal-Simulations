@@ -1,1 +1,14 @@
+Acest proiect este o implementare a unui ceas ce merge pana la durata de 6h, cronometrand in secunde minute si ore, fiind folosite 2 modalitati, una ce se bazeaz pe un TON pentru secunde, si cealalta ce se bazeaza pe un puls pe positive clock edge
 
+Ideea acestui proiect a for aceea d a observa diferentele de implementare intre cele 2, dar is de a vedea care este mai usoara de implementat is mai usor de utilizat, cat si corecta ca si output
+
+Proiectul contine si o interfata grafica prin HMI pentru cele 2 ceasuri
+
+Mentiuni importante:
+-> din cauza modului in care programul cicleaza, uneori mai sunt diverse pierderi (ex: dupa 6 minute de rulare a programului, fata de timpul la care au fost pornte ceasurile, s-au pierdut 5 secunde)
+-> aceste pierderi pot sa fie cauzatesi de diverse probleme de hardware (ex: laptopul pe care lucrez are 16GB de RAM, limita minima pentru TIA, asa ca tot environmentul este la limita de functionare in mare parte a timpului)
+-> din cauza implementarii, ceasul de TON este posibil sa se decaleze cu o secunda la fiecare 10 minute fata de celalalt ceas
+
+Concluzii:
+-> ambele ceasuri arata un comportament similar, insa cel care a fost mai usor de implementat si inteles a fost cel care folosea pulsul pe positive clock edge
+-> o alta varianta de implementare ar fi poate cea de a lua un TON de 6 ore si pe un network de SCL sa separam pe ora, minut si secunda (aceasta implementare o sa urmeze sa fie adaugata de asemenea)
