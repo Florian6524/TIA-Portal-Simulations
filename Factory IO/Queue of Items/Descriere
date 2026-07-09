@@ -1,1 +1,6 @@
+Pentru aceasta scena, utilizatorul va introduce numarul de cutii pe care vrea sa il transporte, urmand dupa acea ca sistemul sa porneasca si sa transporte cutiile
 
+Programul contine si o interfata HMI super simplista, ce are doar un spatiu de introducere pentru cantitate si un buton de pornire
+
+Mentiuni:
+-> pentru sectiunea de incrementare, ar fi necesar un clock de 0.7Hz - 0.75 Hz, insa TIA nu are un astfel de clock predefinit, astfel ca versiunea actuala mai da rateuri pentru unele cantitati
