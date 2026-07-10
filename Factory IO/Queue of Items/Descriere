@@ -4,3 +4,7 @@ Programul contine si o interfata HMI super simplista, ce are doar un spatiu de i
 
 Mentiuni:
 -> pentru sectiunea de incrementare, ar fi necesar un clock de 0.7Hz - 0.75 Hz, insa TIA nu are un astfel de clock predefinit, astfel ca versiunea actuala mai da rateuri pentru unele cantitati
+
+Update: Alternativa:
+-> contine un TON de 0.85 secunde si un positive edge pulse pe 1.25 Hz pentru incrementare, in aceasta varianta, erorile sunt mai mici, insa tot se pierd din incrementari
+-> solutia cea mai buna ramane cea mentionata mai sus, cu un clock custom, ce ar trebui sa fie pe rising edge la fel de mult timp pe cat senzorul laser este "blocat"
