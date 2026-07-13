@@ -1,1 +1,5 @@
 V1_wip: Am facut FB-urile pentru componente, mai ramane doar Main-ul si simularea, plus terminarea HMI-ului. Aceasta este a doua implementare, intrucat prima s-a corupt
+
+V1:
+-versiunea preliminara, ce contine logica de simulare, cu veirificarile de functionare preliminare
+-nu contine insa un HMI, astfel ca verificarile si rezultaele nu sunt unele concluzive, acestea o sa fie facute in V2
