@@ -1,1 +1,6 @@
 V2 wip: inca e work in progress, mai raman cateva elemente de HMI si de adaugat cateva cerinte noi
+
+V2:
+-> am terminat simularea si rezolvat multe erori
+-> am schimbat structura la networks pentru a functiona mai bine
+-> am adaugat si HMI pentur a putea sa vizualizez mai bine liftul
