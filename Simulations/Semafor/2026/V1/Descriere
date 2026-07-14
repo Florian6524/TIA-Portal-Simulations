@@ -1,0 +1,5 @@
+Prima versiune contine elemente pentru un semafor pe ciclu automat, fara buton, si un semafor pentru pietoni, fiecare urmand sa fie folosit ca model de implementare in proiectul mare
+
+Mentiune:
+-> semafoarele sunt complet separate unul de altul
+-> clock-ul de pe semaforul de intermitent galben este la 0.625Hz deoarece pentru unul mai rapid, HMI-ul nu este in stare sa tina pasul
