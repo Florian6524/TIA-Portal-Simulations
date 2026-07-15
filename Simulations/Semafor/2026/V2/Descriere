@@ -9,4 +9,8 @@ V2.2:
 -> am facut si un clock custom de 0.7Hz sa il inlocuiasca pe cel de 0.625Hz, insa si acesta este prea rapid pentru HMI, drept pentru care am ramas la versiunea cu clock-ul de 0.625Hz
 -> modurile au ramas aceleasi ca la semaforul pentru masini: 0 -> normal, 1 -> intermitent, 2 -> oprire
 
+Update:
+V2.2.1: 
+-> am reparat bug-ul de bloca lumina galbena cand treceam de pe intermitent pe normal, acum schimbul se poate face direct, fara oprire
+
 Urmatoarea parte a acestui proiect este de a crea o intersectie in cruce, cu masini si pietoni, care sa functioneze automat, fara vreun input de la pietoni
