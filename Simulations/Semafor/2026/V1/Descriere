@@ -4,3 +4,4 @@ Mentiune:
 -> semafoarele sunt complet separate unul de altul
 -> clock-ul de pe semaforul de intermitent galben este la 0.625Hz deoarece pentru unul mai rapid, HMI-ul nu este in stare sa tina pasul
 -> semaforul de masini are 3 moduri de functionare: 0 - normal, 1 - intermitent, 2 - oprire
+-> semaforul de pietoni are 2 moduri de functionare: 0 - normal, 1 - oprire
