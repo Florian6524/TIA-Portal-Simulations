@@ -1,3 +1,12 @@
-Acesta versiune contine un FB ce are un semafor de pieton conectat la unul de masini
+Acesta versiune contine un FB ce are un semafor de pietoni conectat la unul de masini
 
 V2.1: doar testul cu un semafor cu buton, cu o conexiune la semaforul cu buton la pieton facut in V1.3
+
+V2.2:
+-> contine toat versiunile precedente, si acum si un sistem de semafoare pentru pietoni si masini
+-> este simulat sa se comporte ca in viata reala, cu delay-uri intre semafoare pentru a nu provoca accidente
+-> dupa modul de intermitent, trebuie sa fie neaparat oprit, altfel sunt sanse sa se blocheze semaforul de masini pe galben cand este repornit sistemul
+-> am facut si un clock custom de 0.7Hz sa il inlocuiasca pe cel de 0.625Hz, insa si acesta este prea rapid pentru HMI, drept pentru care am ramas la versiunea cu clock-ul de 0.625Hz
+-> modurile au ramas aceleasi ca la semaforul pentru masini: 0 -> normal, 1 -> intermitent, 2 -> oprire
+
+Urmatoarea parte a acestui proiect este de a crea o intersectie in cruce, cu masini si pietoni, care sa functioneze automat, fara vreun input de la pietoni
