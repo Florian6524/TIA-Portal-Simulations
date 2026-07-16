@@ -1,0 +1,9 @@
+Aceasta versiune contine intersectia in cruce, facuta pas cu pas:
+
+V3.1:
+-> contine 2 semafoare de masini sincronizate pentru a pregati cele 2 benzi perpendiculare
+-> timpul este hardcodat, insa ideea este ca suma dintre timpul pe verde si galben sa fie egal cu timul pe rosu, in ambele semafoare
+
+V3.2:
+
+V3.3:
