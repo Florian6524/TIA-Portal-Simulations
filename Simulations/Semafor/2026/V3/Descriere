@@ -5,5 +5,7 @@ V3.1:
 -> timpul este hardcodat, insa ideea este ca suma dintre timpul pe verde si galben sa fie egal cu timul pe rosu, in ambele semafoare
 
 V3.2:
+-> am adaugat si semafoare pentru pietoni sincronizate cu cele pentru masini
+-> ideea este aceeasi, sincronizarea este hardcodata cu 18 secunde pe fiecare ciclu de permisiune: 18s rosu, 18s verde (+ galben)
 
 V3.3:
