@@ -13,4 +13,9 @@ Update:
 V2.2.1: 
 -> am reparat bug-ul de bloca lumina galbena cand treceam de pe intermitent pe normal, acum schimbul se poate face direct, fara oprire
 
+Update:
+V2.3:
+-> am adaugat un buzzer pentru pietoni (am mai iesit si eu din casa si am vazut un semafor cu buton si buzzer)
+-> am mai reglat nitel la cele 2 semafoare de pietoni-masini, ca sa fie o pauza si la pornire verde la pietoni, si la pornirea lampii rosie
+
 Urmatoarea parte a acestui proiect este de a crea o intersectie in cruce, cu masini si pietoni, care sa functioneze automat, fara vreun input de la pietoni
