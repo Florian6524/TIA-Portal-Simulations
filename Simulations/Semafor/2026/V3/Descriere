@@ -9,3 +9,8 @@ V3.2:
 -> ideea este aceeasi, sincronizarea este hardcodata cu 18 secunde pe fiecare ciclu de permisiune: 18s rosu, 18s verde (+ galben)
 
 V3.3:
+-> am adaugat si partea de HMI pentru intersectie
+-> programul ramane acelasi, intrucat semafoarele folosesc programe similare, astfel sunt de fapt doar 4 programe
+
+Mentiuni:
+-> pentru intersectie trebuie facute cateva calcule in plus pentru a adauga intarziuerile intre rosu-pieton verde-masini si invers, intarzieri ce previn accidentele, insa pentru scopul intersectiei ca si simulare, este suficient si fara
