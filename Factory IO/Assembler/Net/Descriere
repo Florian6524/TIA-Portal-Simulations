@@ -3,3 +3,5 @@ Acestea 2 sunt variante gasite pe internet pentru acest proiect, prima versiune 
 Problema este ca niciuna din ele nu functioneaza, iar implementarea in sine mi se pare una prosteasca, cu mult prea mult set-reset pe componente
 
 O sa urmeze sa adaug o versiune functionala facuta de la 0 de cate mine
+
+Update: posibil sa nu mearga daca clock-urile sunt enabeled, o sa verific acest lucru
