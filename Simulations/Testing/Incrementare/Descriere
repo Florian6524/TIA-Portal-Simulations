@@ -1,0 +1,2 @@
+Teste pentru a incrememnta o singura data folosind positive/negative edge triggers
+-> problea de la care au plecat aceste teste este aceea ca daca avem doar un contact deschis si un increment, acesta se va executa pe fiecare ciclu al procesorului, astfel cu un positive/negative edge trigger, o sa se execute doar odata
