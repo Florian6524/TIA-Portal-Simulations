@@ -1,0 +1,7 @@
+Similar cu banda de asamblare de pe digital, aceasta este pe analog, insemnand ca bratele pe axele X si Z au nevoie de un imput analogic ce o sa le spuna pana la ce nivel sase extinda, nu daca sa se extinda la maxim sau nu
+
+Proiectul acesta este mai dificil decat cel precedent, drept pentru care este inca WIP, caci nu am reusit inca sa gasesc intervalele in care valorile trebuie sa fie pentru fiecare miscare ce trebuie executata
+
+Programul incarcat este functional ca si logica, problema fiind doar intervalele
+Facut intr-un mod similar cu cel digital, inca foloseste prea multe contacte de set si reset, ceea ce ingreuneaza optimizarea acestuia pe viitor
+Am adaugat, ca la cel precedent, o interfata grafica de HMI similara cu cea de la digital
