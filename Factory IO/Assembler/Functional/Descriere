@@ -1,1 +1,8 @@
-Aici o sa urmeze sa fie programul functional, impreuna cu fisierul pentru simulare
+Programul functional are la baza programul initial luat de pe net, modificat in asa fel inca simularea sa fie functionala
+
+Una dintre cele mai mari probleme era ca acesta folosea zone de memorie ce erau deja alocate pentru clock-urile interne.
+Un mod bun de a scapa de acest lucru este de a utiliza un DB cu variabile auxiliare care sa inlocuiasca utilizarea acelor registrii de memorie
+
+Pe langa rezolvarea altor erori si sa ma asigur ca workflow-ul simularii functioneaza cum trebuie, am adaugat si o mica interfata grafica pentru anunturile de alarme si reset la counter
+
+Ca si concluzie, o buna parte din acest program este extrem de bine strucutrata, cu block-uri de positive si negative edge pentru a activa diverse contacte, problema esta totusi ca acest program utilizeaza prea multe contacte de tip set sau reset, lucru ce ingreuneaza mult develppment-ul pe viitor la acesta. 
