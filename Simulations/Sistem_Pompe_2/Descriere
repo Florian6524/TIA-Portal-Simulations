@@ -1,0 +1,8 @@
+Un sistem cu 4 module de bazin-pompa-vana, controlat pentur simulare pe acelasi PLC cu acelasi HMI, irl ar fi fiecare sistem pe propriul PLC si dulap electric
+
+Fiecare modul poate sa fie actionat pe manual si sa se dea comenzi separat la fiecare componenta, si pe automat cu un PID facut custom pentru fiecare modul
+Valorile pentur debitul la pompa si la vana sunt hardcodate, la fel ca si volumul la bazin
+
+Sistemul o sa contina la final si un log sistem ce o sa intregistreze un timestamp si un volum si alte erori la un naumit interval de timp, facut in mod similar cu retetele de la proiectul cu mixer
+
+Mai multe detalii o a fie in fiecare versiune adaugata in acest proiect
