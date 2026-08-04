@@ -3,3 +3,7 @@ Prima versiune in care am doar primul sistem pe modul manual, cu un HMI doar pen
 Momentan sunt cateva probleme cu tag-urile din PLC, ceea ce nu imi permite momentan sa testez, insa erorile acestea vor fi reparate pana la versiunea urmatoare
 
 Problema principala sunt tagurile de I/O/M care is dau rewrite, si toate variabilele ce variaza foarte ciudat si aproape fara motiv sunt acestea, asa ca o sa le inlocuiesc cu variabile din DB uri, din moment ce e doar o simulare, fara componente fizice externe
+
+Update:
+- erorile au forst rezolvate prin metoda mentionata mai sus si am adaugat si partea de mod automat cu PID, ajustat pe cat posibil pentru simulare
+- urmeaza acum sa adaug si celelalte sisteme in V2, impreuna cu HMI-uri pentru fiecare, iar in V3 o sa adaug sistemul de log-uri cu SCL
