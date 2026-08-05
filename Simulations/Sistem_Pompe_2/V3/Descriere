@@ -1,0 +1,7 @@
+In aceasta versiune am adaugat un sistem de loguri de activitate, pentru fiecare sistem de pompe, separat ca FB si multiistantiat, folosind un array cu un UDT cu toate valorile ce sunt afisate pe HMI
+
+Inregistrarea datelor se va face odata la 3 minute (timpul poate sa fie schimbat usor), datele retinute fiind cele legate de nivelul bazinului, modul de functionare, timestamp si daca eroarea de sistem sua shutdown sunt active
+
+Pentru HMI, sunt is butoane de navigare intre loguri, la fel si de gasire a unui index si de a naviga direct la ultimul inregistrat
+
+Sistemul este similar din punct de vedere functional cu cel de la retetele de la mixer, folosind aceleasi idei de cautare si inregistrare a datelor intr-un array
