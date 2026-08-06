@@ -1,1 +1,21 @@
+Acest proiect contine implementarea a 2 simulari de motoare, o simulare ce are un soft starter, si cealalta care are un variable freuency drive (VFD)
 
+Amandoua sunt folosite pentru a control aun motor, diferenta dinte ele este modul:
+- soft starter-ul controleaza doar tensiunea de pe motor, si doar in rampa de crester si coborare. odata ce a ajuns la 100%, intra pe starea de bypass
+- VFD-ul controleaza atat tensiunea, cat si frecventa, ajungand astfel sa contoleze viteza motorului pe tot parcursul timpului de operare
+
+Scopul acestui proiect a fost de a ilustra diferenta de functionare dintre cele 2 utilizand FB-uri si DB-uri separate, cu network-uri de SCL, utilizand cicluri la 0.1s
+
+Soft starter:
+- simuleaza rampa de tensiune la pornire si la oprire
+- gestioneaza trcerea automata de la o stare la alta: oprit -> rampa de pornire -> bypass -> rampa de oprire
+- simuleaza un curent de pornire ridicat, de aporximativ 3.5 * In, pe durata accelerarii si cularea contactorului de bypass la atingerea turatiei nominale
+
+VFD:
+- implementeaza reglarea continua a vitezei prin ajustarea frecventei intre 0 si 50 Hz
+- calculeaza accelerarea si decelerarea pe baza setpoint-ului introdus
+- limiteaza curentul de pornire la valori reduse, aproxiamtiv 1.2 * In, si mentine curentul proportional cu frecventa
+
+HMI:
+- 2 ecrane, fiecare pentru cate un tip de control, similare ca si design
+- utilizatorul poate introduce valorile pentru similare in partea stanga si sa vada valorile simulate in cea dreapta, impreuna cu o animatie sugestiva pentru starea motorului
