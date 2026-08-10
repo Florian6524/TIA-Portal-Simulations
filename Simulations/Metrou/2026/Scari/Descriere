@@ -3,3 +3,10 @@ Partea din proiect ce contine scarile rulante:
 V1: FB-ul de scari rulante facut doar pe modul de urcare, testat pe acesta
 V2: FB-ul de scari rulante, acum cu functia completa
 V3: Sistemul de scari complet cu toate 4, impreuna cu un HMI
+
+Mod de functionare:
+- scarile au 2 moduri: 0 -> coborare, 1 -> urcare, modul poate sa fie schimbat doar daca scara e oprita
+- simularea este facuta in ideea de plecare stea-triunghi
+- scara contine si cate un senzor de presiune pentru persoana, mergand pe regim de stea pana simte persoana, atunci schimba pe triunghi
+- timpul de regim triunghi este hardcodat, poate fi schimbat pe baza a cat de lunga e scara si cat dureaza sa transporte o persoana
+- o alta idee este acea de a folsi ambii senzori de persoana pentru a nu mai folosi timpul acela impus, maxim adaugand 3-5 secunde pentru siguranta
