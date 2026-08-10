@@ -1,8 +1,8 @@
 Partea din proiect ce contine scarile rulante:
 
 V1: FB-ul de scari rulante facut doar pe modul de urcare, testat pe acesta
-V2: FB-ul de scari rulante, acum cu functia completa
-V3: Sistemul de scari complet cu toate 4, impreuna cu un HMI
+V2: FB-ul de scari rulante, acum cu functia completa, impreuna cu un HMI
+V3: Sistemul de scari complet cu toate 4
 
 Mod de functionare:
 - scarile au 2 moduri: 0 -> coborare, 1 -> urcare, modul poate sa fie schimbat doar daca scara e oprita
