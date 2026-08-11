@@ -1,0 +1,9 @@
+Programul pentru portile de la metrou, cu 3 moduri de deschidere: 0 -> deschisa spre metrou, 1 -> deschisa spre iesire, 2 -> se poate deschide in ambele sensuri
+
+0 -> asteapta confirmarea platii sau abonamentului/biletului, deschide usa, senzorul simte dupa ce a trecut, asteapta cateva secunde si inchide, repetand secventa. Daca simte mai multe treceri, porneste buzzerul
+1 -> doar deschide si inchide, fara confirmare
+2 -> combiatie intre 0 si 1, cand una e activa, cealalta e blocata (bazat pe care senzor simte primul prezenta: senzorul laser 2, la iesire -> 1; sau confirmarea de plata/bilet/abonament -> 0)
+
+HMI-ul o sa contina o simulare pentru 3 porti, pentru a vendea in timp real toate cele 3 moduri active
+
+-> modurile pot sa fie schimbate fara a apasa comanda de stop, spre deosebire de scari, caci motoarele de actionare a usilor nu sunt pornite continuu, singura problema este daca scimbarea se face cat o secventa este ativa, insa pe HMI, daca secventa  activa, butonul de mod o sa fie ascuns
