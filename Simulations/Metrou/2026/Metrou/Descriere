@@ -7,3 +7,7 @@ Programul pentru portile de la metrou, cu 3 moduri de deschidere: 0 -> deschisa 
 HMI-ul o sa contina o simulare pentru 3 porti, pentru a vendea in timp real toate cele 3 moduri active
 
 -> modurile pot sa fie schimbate fara a apasa comanda de stop, spre deosebire de scari, caci motoarele de actionare a usilor nu sunt pornite continuu, singura problema este daca scimbarea se face cat o secventa este ativa, insa pe HMI, daca secventa  activa, butonul de mod o sa fie ascuns
+
+V1: 
+-> contine programul si interfata de HMI pentru o usa de metrou doar pe modurile 0 si 1
+-> urmeaza in urmatoarea versiune sa adaug ferestrele de HMI pentru celelalte 2 usi si pentru modul 2 de operare
