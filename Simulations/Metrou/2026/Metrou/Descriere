@@ -11,3 +11,7 @@ HMI-ul o sa contina o simulare pentru 3 porti, pentru a vendea in timp real toat
 V1: 
 -> contine programul si interfata de HMI pentru o usa de metrou doar pe modurile 0 si 1
 -> urmeaza in urmatoarea versiune sa adaug ferestrele de HMI pentru celelalte 2 usi si pentru modul 2 de operare
+
+V2:
+-> modul 2 de operare facut si testat, impreuna cu rezolvarea a cateva erori ce au aparut la celelalte moduri
+-> HMI putin imbunatatit, mai ramane doar de extins implimentarea catre celelalte 2 usi
