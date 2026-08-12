@@ -15,3 +15,8 @@ V1:
 V2:
 -> modul 2 de operare facut si testat, impreuna cu rezolvarea a cateva erori ce au aparut la celelalte moduri
 -> HMI putin imbunatatit, mai ramane doar de extins implimentarea catre celelalte 2 usi
+
+V3:
+-> am adaugat usile ramase si de asemenea buton de start stop
+-> logica a ramas neschimbata, spre deosebire de scari, poti schimba activ modul de operare al usilor, fara sa le dai stop inainte
+
