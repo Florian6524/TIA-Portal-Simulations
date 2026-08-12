@@ -20,3 +20,6 @@ V3:
 -> am adaugat usile ramase si de asemenea buton de start stop
 -> logica a ramas neschimbata, spre deosebire de scari, poti schimba activ modul de operare al usilor, fara sa le dai stop inainte
 
+V3.1:
+-> mix fix pentru HMI-ul de la usa 2, la butonul de plata, afisat pe modul de iesire
+
