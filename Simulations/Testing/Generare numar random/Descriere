@@ -1,0 +1,4 @@
+Desi in Tia exista deja un add-on cu generator de numere random, am zis sa incerc si eu sa fac intr-un program de SCL un generator de numere random intregi
+
+Principiul este acela ca iau timpul sistemului in nanosecunde, il adaug o operatie matematica si, daca totul e ok, il incadrez intre valorile de minim si maxim
+Programul genereaza continuu numere, atat timp cat nu are alarme setate, iar pe HMI, cand butonul este apasat, o sa ia ultima valoare generata la apasarea butonului pentru a o afisa
