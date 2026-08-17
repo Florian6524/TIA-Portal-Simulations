@@ -1,1 +1,7 @@
 Un lift industrial pe mai multe niveluri, partea de programare PLC fiind inspirata dintr-un proiect deja existent de la canalul de YouTube "The Automation Craze"
+
+Mod de functionare pentru panoul de comanda:
+- ciuperca de esd -> functionare normala, apesi pentru a opri tot sistemul, intorci ca sa nu mai fie sistemul ep esd
+- buton stop, opreste sistemul
+- dupa ambele, trebuie apasat butonul de reset pentur a putea fi repasate butoanele pentru secventa de incepere
+- pentru secventa de incepere, trebuie modul setat pe automat si apasat butonul de start 
