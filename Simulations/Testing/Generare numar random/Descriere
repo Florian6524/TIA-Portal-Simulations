@@ -2,3 +2,7 @@ Desi in Tia exista deja un add-on cu generator de numere random, am zis sa incer
 
 Principiul este acela ca iau timpul sistemului in nanosecunde, il adaug o operatie matematica si, daca totul e ok, il incadrez intre valorile de minim si maxim
 Programul genereaza continuu numere, atat timp cat nu are alarme setate, iar pe HMI, cand butonul este apasat, o sa ia ultima valoare generata la apasarea butonului pentru a o afisa
+
+Update:
+- am adaugat inca un bloc de FC, similar cu primul, doar ca pentru generare de numere reale
+- am adaugat inca un screen pe HMI pentru numerele reale
