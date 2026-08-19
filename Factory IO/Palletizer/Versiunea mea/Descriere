@@ -3,3 +3,5 @@ Aici o sa fie versiunea mea de program, facuta de la 0, cu functii separate pent
 V1: am facut functionalitatea de start/stop/esd, cu auto si manual, impreuna cu un inceput de funtionalitate pentru reset si pentru benzi
 
 V2: am facut functionalitatea pe benzi, pana la paletul urcat cu liftul si cele 6 cutii ce trebuie sa isi ia clamp, urmeaza sa adaug si restul
+
+V3: am facut secventa sa functioneze odata, mai raman de resetat conditiile ca sa meraga continuu
