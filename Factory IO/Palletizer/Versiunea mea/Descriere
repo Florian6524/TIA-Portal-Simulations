@@ -7,3 +7,5 @@ V2: am facut functionalitatea pe benzi, pana la paletul urcat cu liftul si cele 
 V3: am facut secventa sa functioneze odata, mai raman de resetat conditiile ca sa meraga continuu
 
 V4: am facut sa mearga continuu secventa si am imbunatatit o parte din conditii, transformand din set-reset in auto-reset unde era nevoie, si am imbunatatit din timpii pe benzi
+
+V4.1: am mai rezolvat cateva erori ce au aparut dupa release, am adaugat HMI pentru moduri de 3x2 si 2x3 pe cutii si am imbunatatit inca putin cativa timpi
