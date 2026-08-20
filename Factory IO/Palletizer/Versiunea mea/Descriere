@@ -1,4 +1,4 @@
-Aici o sa fie versiunea mea de program, facuta de la 0, cu functii separate pentru banda la paleti si la cutii, si cu o functie mare de paletizor care sa le reuneasca pe cele 2 si sa faca cum trebuie flowul dintre cele 2
+Aici o sa fie versiunea mea de program, facuta de la 0, cu functii separate pentru banda la paleti si cea la cutii, si cu o functie mare de paletizor care sa le reuneasca pe cele 2 si sa faca cum trebuie flowul secventei de paletizare
 
 V1: am facut functionalitatea de start/stop/esd, cu auto si manual, impreuna cu un inceput de funtionalitate pentru reset si pentru benzi
 
@@ -9,3 +9,15 @@ V3: am facut secventa sa functioneze odata, mai raman de resetat conditiile ca s
 V4: am facut sa mearga continuu secventa si am imbunatatit o parte din conditii, transformand din set-reset in auto-reset unde era nevoie, si am imbunatatit din timpii pe benzi
 
 V4.1: am mai rezolvat cateva erori ce au aparut dupa release, am adaugat HMI pentru moduri de 3x2 si 2x3 pe cutii si am imbunatatit inca putin cativa timpi
+
+V5: am adaugat partea de setare mod de amplasare al cutiilor, fie in 2x3, fie in 3x2, si am rectificat mici erori legate de oprire si de oprirea de urgenta pe benzi
+
+Mentiuni:
+- aceasta simulare de paletizor este facuta ca un proof of concept pentru cele 2 secvente in paralele: paleti si cutii
+- din acest motiv, pentru simplitate, am pus sa fie o singura stiva de nivel pe palet
+- pentru a face pe mai multe niveluri, trebuie ca partea de lift sa fie schimbata pe secventa, adaugand un counter si creand un loop de lift pentru secventa
+- pentru o posibila secventa noua de lift, pentru a urca la nivel maxim, trebuie setate move_up si move_to_limit, apoi resetate. Dupa ce se incarca primul nivel, trebuie setat move_down si resetat, asta pentru fiecare alt nivel. La final, setam move_down si move_to_limit pentru a duce liftul la nivelul cel mai de jos si a il trimite pe banda de finalizare
+- liftul functioneaza fie in trepte, folosind doar move_up si move_down, fie direct la limita, setand si move_to_limit
+- o alta idee este inlocuirea tuturor timerelor folosite pentru calibrarea benzilor si a secventei, cu functii bazate pe positive/negative edge triggers
+- majoritatea timerelor sunt folosite pentru senzorii laser, ideea ar fi o functie generala si reutilizata care sa constate cand un obiect intrerupe semnalul, iar cand  semnalul este din nou primit, contorizeaza trecerea completa a obiectului
+- totusi, pentru aceasta implementare, calibrarea prin timere este mai mult decat suficienta
